@@ -21,12 +21,13 @@ import styles from "./Home.module.css"
 
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <>
+    
       <head></head>
       <body>
         <br />
         <center>
-          <h1><h1 style={{color: "red" }}>Rana Muhammad Reebaal Hussain</h1></h1>
+         <h1 >Rana Muhammad Reebaal Hussain</h1>
           <br /><br /><br /><br />
           <h1 style={{color: "green" }}>Daily Progress Diary</h1>
           <br /><br />
@@ -35,7 +36,9 @@ export default function RootLayout({ children }) {
         <br />
         {children}
       </body>
-    </html>
+      
+   </>
+    
   );
 }
 
