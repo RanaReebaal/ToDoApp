@@ -6,7 +6,16 @@ let todos = [
     name: "Rana Is Ready To Do Work",
     isDone: false,
   },
-  
+  {
+    id: uuidv4(),
+    name: "",
+    isDone: false,
+  },
+  {
+    id: uuidv4(),
+    name: "",
+    isDone: false,
+  },
 ];
 
 export const addTodo = (name) => {
